@@ -153,4 +153,8 @@ Argo CD를 통해 네임스페이스에 Application을 배포하기 위해서는
 
 - 완료 화면
 
+
+### 5. 참고
+https://developers.redhat.com/articles/2021/10/21/whats-new-red-hat-openshift-49-console#developer_console_features_for_openshift_pipelines
+https://github.com/konveyor/gitops-primer
   
