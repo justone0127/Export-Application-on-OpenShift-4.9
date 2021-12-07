@@ -152,6 +152,7 @@ Argo CD를 통해 네임스페이스에 Application을 배포하기 위해서는
   ```
 
 - 완료 화면
+  ![10_argocd_application](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\10_argocd_application.png)
 
 
 ### 5. 참고
