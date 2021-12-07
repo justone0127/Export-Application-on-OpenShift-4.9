@@ -10,15 +10,15 @@ GitOps-Primer Operator는 클러스터에서 Object를 내보내고 Git 리포�
 
 - OpenShift Console 접속 > Operators> OperatorHub 선택 > gitops-primer 검색 
 
-  ![01_gitops-primer-operator](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\01_gitops-primer-operator.png)
+  ![01_gitops-primer-operator](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/01_gitops-primer-operator.png?raw=true)
 
 - Install을 선택하여 설치를 진행합니다.
 
-  ![02_gitops-primer-install](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\02_gitops-primer-install.png)
+  ![02_gitops-primer-install](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/02_gitops-primer-install.png)
 
 - 설치가 완료 되면 개발자 콘솔에서 **Export Application** 메뉴가 활성화된 것을 볼 수 있습니다.
 
-  ![03_export-application](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\03_export-application.png)
+  ![03_export-application](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/03_export-application.png)
 
 ### 2. Export Application을 통해 Object 내보내기
 
@@ -28,25 +28,25 @@ GitOps-Primer Operator는 클러스터에서 Object를 내보내고 Git 리포�
 
   - gitops-primer job container 실행
 
-    ![04_export_application_start](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\04_export_application_start.png)
+    ![04_export_application_start](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/04_export_application_start.png)
 
   - 프로젝트의 Object들을 추출하는 작업이 Job Container로 실행 됩니다.
 
-    ![05_gitops-primer-job-container-log](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\05_gitops-primer-job-container-log.png)
+    ![05_gitops-primer-job-container-log](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/05_gitops-primer-job-container-log.png)
 
   - Job Container 수행이 끝나게 되면, 해당 Object들을 다운로드 받을 수 있게 웹서버 Pod가 뜨게 되고 다음과 같이 Download가 활성화 됩니다.
 
-    ![06_gitops-primer-web-container](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\06_gitops-primer-web-container.png)
+    ![06_gitops-primer-web-container](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/06_gitops-primer-web-container.png)
 
   - Download 활성화 
 
-    ![07_download](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\07_download.png)
+    ![07_download](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/07_download.png)
 
   - OpenShift 계정으로 로그인을 거친 후에 관련 Object들의 다운로드가 완료됩니다.
 
-    ![08_login](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\08_login.png)
+    ![08_login](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/08_login.png)
 
-    ![09_download](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\OCP_4.9_Tekton\gitops-primer\09_download.png)
+    ![09_download](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/09_download.png)
 
 
 
