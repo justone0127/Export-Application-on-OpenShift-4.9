@@ -10,15 +10,15 @@ GitOps-Primer Operator는 클러스터에서 Object를 내보내고 Git 리포�
 
 - OpenShift Console 접속 > Operators> OperatorHub 선택 > gitops-primer 검색 
 
-  ![01_gitops-primer-operator](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/01_gitops-primer-operator.png?raw=true)
+  ![01_gitops-primer-operator](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/01_gitops-primer-operator.png)
 
 - Install을 선택하여 설치를 진행합니다.
 
-  ![02_gitops-primer-install](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/02_gitops-primer-install.png)
+  ![02_gitops-primer-install](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/02_gitops-primer-install.png)
 
 - 설치가 완료 되면 개발자 콘솔에서 **Export Application** 메뉴가 활성화된 것을 볼 수 있습니다.
 
-  ![03_export-application](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/03_export-application.png)
+  ![03_export-application](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/03_export-application.png)
 
 ### 2. Export Application을 통해 Object 내보내기
 
@@ -28,7 +28,7 @@ GitOps-Primer Operator는 클러스터에서 Object를 내보내고 Git 리포�
 
   - gitops-primer job container 실행
 
-    ![04_export_application_start](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/04_export_application_start.png)
+    ![04_export_application_start](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/04_export_application_start.png)
 
   - 프로젝트의 Object들을 추출하는 작업이 Job Container로 실행 됩니다.
 
@@ -36,17 +36,17 @@ GitOps-Primer Operator는 클러스터에서 Object를 내보내고 Git 리포�
 
   - Job Container 수행이 끝나게 되면, 해당 Object들을 다운로드 받을 수 있게 웹서버 Pod가 뜨게 되고 다음과 같이 Download가 활성화 됩니다.
 
-    ![06_gitops-primer-web-container](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/06_gitops-primer-web-container.png)
+    ![06_gitops-primer-web-container](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/06_gitops-primer-web-container.png)
 
   - Download 활성화 
 
-    ![07_download](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/07_download.png)
+    ![07_download](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/07_download.png)
 
   - OpenShift 계정으로 로그인을 거친 후에 관련 Object들의 다운로드가 완료됩니다.
 
-    ![08_login](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/08_login.png)
+    ![08_login](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/08_login.png)
 
-    ![09_download](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/09_download.png)
+    ![09_download](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/09_download.png)
 
 
 
@@ -152,7 +152,7 @@ Argo CD를 통해 네임스페이스에 Application을 배포하기 위해서는
   ```
 
 - 완료 화면
-  ![10_argocd_application](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/10_argocd_application.png)
+  ![10_argocd_application](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/10_argocd_application.png)
 
 
 ### 5. 참고
