@@ -32,7 +32,7 @@ GitOps-Primer Operator는 클러스터에서 Object를 내보내고 Git 리포�
 
   - 프로젝트의 Object들을 추출하는 작업이 Job Container로 실행 됩니다.
 
-    ![05_gitops-primer-job-container-log](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/05_gitops-primer-job-container-log.png)
+    ![05_gitops-primer-job-container-log](https://github.com/justone0127/Export-Application-on-OpenShift-4.9/blob/main/images/05_gitops-primer-job-container-log.png)
 
   - Job Container 수행이 끝나게 되면, 해당 Object들을 다운로드 받을 수 있게 웹서버 Pod가 뜨게 되고 다음과 같이 Download가 활성화 됩니다.
 
